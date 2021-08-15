@@ -47,7 +47,8 @@ main#content {
 
 img {
   height: auto;
-  width: var(--content-width);
+  /* width: var(--content-width); */
+  max-width: 90%;
 }
 
 /* HEADER */
