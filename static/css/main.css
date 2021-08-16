@@ -47,8 +47,7 @@ main#content {
 
 img {
   height: auto;
-  /* width: var(--content-width); */
-  max-width: 90%;
+  max-width: 100%;
 }
 
 /* HEADER */
@@ -260,6 +259,11 @@ blockquote {
   color: grey;
   padding-left: 1rem;
   margin-left: 0;
+}
+
+hr {
+  color: var(--light-secondary-color);
+  margin: 50px auto;
 }
 
 table {
