@@ -22,7 +22,7 @@
             {{- partial "list-posts.html" . -}}
         {{ end }}
     {{ else if eq .Site.Params.ShowPostsOnHomePage "recent" }}
-        {{ range $posts.ByDate.Reverse | first 4 }}
+        {{ range $posts.ByDate.Reverse | first 20 }}
             {{- partial "list-posts.html" . -}}
         {{ end }}
     {{ end }}
